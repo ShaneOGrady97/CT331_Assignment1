@@ -99,3 +99,22 @@ genericlistElement* dequeue(genericlistElement* list) {
 	temp->next = NULL;
 	return last;
 }
+
+void printChar(void* data){
+  printf("%c\n", *(char*)data);
+}
+
+//Print an integer element
+void printInt(void* data){
+  printf("%d\n", *(int*)data);
+}
+
+//Print a float element
+void printFloat(void* data){
+  printf("%f\n", *(float*)data);
+}
+
+//Print a string element
+void printStr(void* data){
+  printf("%s\n", data);
+}

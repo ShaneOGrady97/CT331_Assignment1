@@ -39,5 +39,18 @@ void enqueue(genericlistElement** list, void* data, size_t size, printFn print);
 //Dequeue an element from the tail of the list.
 genericlistElement* dequeue(genericlistElement* list);
 
+//Prints out an integer element
+void printInt(void* data);
+
+//Prints out a float element
+void printFloat(void* data);
+
+//Prints out a char element
+void printChar(void* data);
+
+//Prints out a string element
+void printStr(void* data);
+
+
 
 #endif
