@@ -26,7 +26,7 @@ void runTests(){
   printf("%d\n\n", num);
 
   //Test enqueue
-  enqueue(&l, "a final last string (4)", 30);
+  enqueue(&l, "Last string", 30);
   traverse(l);
   printf("\n");
 
@@ -36,7 +36,7 @@ void runTests(){
   printf("\n");
 
   //Test push
-  push(&l, "a final last string (4)", 30);
+  push(&l, "Last string", 30);
   traverse(l);
   printf("\n");
 
